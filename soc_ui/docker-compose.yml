@@ -1,0 +1,7 @@
+services:
+  soc-ui:
+    build: .
+    container_name: soc-planning-ui
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
